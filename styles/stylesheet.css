@@ -1,0 +1,31 @@
+body, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: lightgray;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.intro {
+    text-align: center;
+    border-bottom: dashed;
+}
+
+.solo {
+    margin-left: 24px;
+}
+
+.colab {
+    margin-left: 24px;
+}
+
+.sites {
+    margin-left: 24px;
+}
