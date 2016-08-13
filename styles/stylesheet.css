@@ -4,12 +4,6 @@
     100% {color: red;}
 }
 
-@keyframes changeBackgroundColor {
-    0% {background-color: orange;}
-    50% {background-color: white;}
-    100% {background-color: orange;}
-}
-
 body, h1, h3 {
     margin: 0;
     padding: 0;
@@ -17,26 +11,33 @@ body, h1, h3 {
 }
 
 body {
-    
+    background-color: lightgray;
 }
 
 h1 {
     font-size: 40px;
+    animation-name: changeTextColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
 }
 
 ul {
     list-style: none;
 }
 
+ul li {
+    margin-bottom: 20px;
+}
+
 .btn {
-    transform: rotate(20deg);
-    background-color: aqua;
-    border: 1px black;
+    border: solid black;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lime;
 }
 
 .btn:hover {
-    background-color: aquamarine;
-    text-decoration: none;
+    background-color: lightgreen;
 }
 
 .intro {
