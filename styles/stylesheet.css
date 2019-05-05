@@ -1,50 +1,36 @@
-@keyframes changeTextColor {
-    0% {color: red;}
-    50% {color: blue;}
-    100% {color: red;}
+body, ul, div, p{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-body, h1, h3 {
+#logo {
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
+    background-color: chartreuse;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-body {
-    background-color: lightgray;
+nav li {
+    float: left;
 }
 
-h1 {
-    font-size: 40px;
-    animation-name: changeTextColor;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;    
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: 20px;
-}
-
-.btn {
-    border: solid black;
-    padding: 5px;
-    border-radius: 20px;
-    background-color: lime;
-}
-
-.btn:hover {
-    background-color: lightgreen;
-}
-
-.intro {
+nav li a {
+    display: block;
+    color: white;
     text-align: center;
-    border-bottom: dashed;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.section {
-    margin-left: 24px;
+nav li a:hover {
+    background-color: #111;
 }
