@@ -1,36 +1,45 @@
-body, ul, div, p{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+@keyframes changeTextColor {
+    0% {color: red;}
+    50% {color: blue;}
+    100% {color: red;}
 }
 
-#logo {
-    text-align: center;
-    font-size: 24px;
-    padding: 5px;
-    background-color: chartreuse;
-}
-
-nav ul {
-    list-style-type: none;
+body, h1, h3 {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    border: 0;
 }
 
-nav li {
-    float: left;
+body {
+    background-color: lightgray;
 }
 
-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+h1 {
+    font-size: 40px;
+    animation-name: changeTextColor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;    
 }
 
-nav li a:hover {
-    background-color: #111;
+.sitebtn li {
+    margin-bottom: 20px;
+}
+
+.sitebtn {
+    list-style: none;
+}
+
+.btn {
+    border: solid black;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lime;
+}
+
+.btn:hover {
+    background-color: lightgreen;
+}
+
+.section {
+    margin-left: 24px;
 }
