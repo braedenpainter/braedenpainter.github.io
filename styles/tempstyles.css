@@ -1,0 +1,42 @@
+.clickpic {
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	float: left;
+}
+
+.clickpic img {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+}
+
+.info {
+	width: inherit;
+	height: inherit;
+}
+
+.info p {
+    background-color: rgba(69, 82, 71, 0);
+	margin: 0px;
+	opacity: 0;
+	transition: opacity 1s, background-color 1s;
+	position: absolute;
+	display: block;
+	color: white;
+	width: inherit;
+	height: inherit;
+}
+
+.info p:hover {
+    background-color: rgba(69, 82, 71, .75);
+	opacity: 1;
+}
+
+.sites {
+	display: block;
+}
+
+.sitelist li {
+    display: inline;
+}
