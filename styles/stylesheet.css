@@ -21,53 +21,14 @@ h1 {
     animation-iteration-count: infinite;    
 }
 
-.clickpic {
-	width: 200px;
-	height: 200px;
-    margin-left: 20px;
-    margin-top: 10px;
-	float: left;
-}
-
-.clickpic img {
-	width: inherit;
-	height: inherit;
-	position: absolute;
-}
-
-.info {
-	width: inherit;
-	height: inherit;
-}
-
-.info p {
-    background-color: rgba(69, 82, 71, 0);
-	margin: 0px;
-	opacity: 0;
-	transition: opacity 1s, background-color 1s;
-	position: absolute;
-	display: block;
-	color: white;
-	width: inherit;
-	height: inherit;
-}
-
-.info p:hover {
-    background-color: rgba(69, 82, 71, .75);
-	opacity: 1;
-}
-
 .section {
 	display: block;
-    margin-left: 24px;
+	margin-left: 24px;
+	height: 260px;
 }
 
 .section h3 {
 	display: inline;
 	padding-right: 60px;
 	border-bottom: solid 2px;
-}
-
-.section li {
-	display: inline;
 }
