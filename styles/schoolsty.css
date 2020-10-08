@@ -1,9 +1,9 @@
 .skinfo {
-	
+    margin-left: 20px;
 }
-
 .skinfo h3 {
 	margin-left: 12px;
+    width: 300px;
 	border-bottom: 2px dotted;
-	display: block;
+	display: inline-block;
 }
